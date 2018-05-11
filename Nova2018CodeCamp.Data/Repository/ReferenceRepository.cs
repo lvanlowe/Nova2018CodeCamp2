@@ -26,6 +26,7 @@ namespace Nova2018CodeCamp.Data.Repository
         public async Task<int> AddLocation(Location location)
         {
             _context.Location.Add(location);
+            var isGood = await _context.SaveChangesAsync();
             return location.Id;
         }
     }
