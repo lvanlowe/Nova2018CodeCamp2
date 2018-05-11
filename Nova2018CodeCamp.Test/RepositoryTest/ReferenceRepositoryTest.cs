@@ -41,6 +41,25 @@ namespace Nova2018CodeCamp.Test.RepositoryTest
 
         }
 
+        [Fact]
+        public void AddLocation_When_executed_add_location()
+        {
+            var location = new Location()
+            {
+                Name = "Woodbridge",
+                SportId = 1
+            };
+
+            var repository = new ReferenceRepository(_context);
+
+            var id = repository.AddLocation(location);
+
+            var locations = _context.Location.ToListAsync();
+            Assert.Single(locations.Result);
+            Assert.True(locations.Result[0].Id > 0);
+            Assert.Equal(location.Name, locations.Result[0].Name);
+
+        }
 
     }
 }

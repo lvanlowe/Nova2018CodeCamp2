@@ -23,9 +23,10 @@ namespace Nova2018CodeCamp.Data.Repository
             return sport.Id;
         }
 
-        public Task<int> AddLocation(Location location)
+        public async Task<int> AddLocation(Location location)
         {
-            throw new NotImplementedException();
+            _context.Location.Add(location);
+            return location.Id;
         }
     }
 }
