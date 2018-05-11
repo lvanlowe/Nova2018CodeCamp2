@@ -20,4 +20,8 @@
     <ProjectReference Include="..\Nova2018CodeCamp.Data\Nova2018CodeCamp.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="WorkerTest\" />
+  </ItemGroup>
+
 </Project>
