@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova2018CodeCamp.Data", "Nova2018CodeCamp.Data\Nova2018CodeCamp.Data.csproj", "{CAD2CBA3-2AB6-42C0-BC51-2BBD6CFC9FA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova2018CodeCamp.Test", "Nova2018CodeCamp.Test\Nova2018CodeCamp.Test.csproj", "{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CAD2CBA3-2AB6-42C0-BC51-2BBD6CFC9FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAD2CBA3-2AB6-42C0-BC51-2BBD6CFC9FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAD2CBA3-2AB6-42C0-BC51-2BBD6CFC9FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
