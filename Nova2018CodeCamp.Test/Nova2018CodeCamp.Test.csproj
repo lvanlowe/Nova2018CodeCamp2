@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RepositoryTest\" />
+    <ProjectReference Include="..\Nova2018CodeCamp.Data\Nova2018CodeCamp.Data.csproj" />
   </ItemGroup>
 
 </Project>
