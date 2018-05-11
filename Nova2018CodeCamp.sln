@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova2018CodeCamp.Data", "No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova2018CodeCamp.Test", "Nova2018CodeCamp.Test\Nova2018CodeCamp.Test.csproj", "{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova2018CodeCamp.Model", "Nova2018CodeCamp.Model\Nova2018CodeCamp.Model.csproj", "{48DD4A8B-1799-42CF-B255-0BA13DE19795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E157A1F-A587-4A8D-A1AF-ED15D8DDA655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DD4A8B-1799-42CF-B255-0BA13DE19795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DD4A8B-1799-42CF-B255-0BA13DE19795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DD4A8B-1799-42CF-B255-0BA13DE19795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DD4A8B-1799-42CF-B255-0BA13DE19795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

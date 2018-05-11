@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Worker\" />
+    <ProjectReference Include="..\Nova2018CodeCamp.Model\Nova2018CodeCamp.Model.csproj" />
   </ItemGroup>
 
 </Project>

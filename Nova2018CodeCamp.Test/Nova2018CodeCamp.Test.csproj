@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0-preview-20180320-02" />
+    <PackageReference Include="Moq" Version="4.8.2" />
     <PackageReference Include="NETStandard.Library" Version="2.0.1" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
@@ -18,10 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Nova2018CodeCamp.Data\Nova2018CodeCamp.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="WorkerTest\" />
   </ItemGroup>
 
 </Project>
