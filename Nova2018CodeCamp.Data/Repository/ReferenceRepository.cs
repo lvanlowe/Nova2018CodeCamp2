@@ -19,6 +19,7 @@ namespace Nova2018CodeCamp.Data.Repository
         public async Task<int> AddSport(Sport sport)
         {
             _context.Sport.Add(sport);
+            var isGood = await _context.SaveChangesAsync();
             return sport.Id;
         }
 
