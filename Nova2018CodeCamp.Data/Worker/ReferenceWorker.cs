@@ -22,7 +22,7 @@ namespace Nova2018CodeCamp.Data.Worker
             var sport = new Sport { Name = view.SportName };
             view.SportId = await _repository.AddSport(sport);
 
-            var location = new Location { Name = view.LocationName };
+            var location = new Location { Name = view.LocationName, SportId = view.SportId};
             view.LocationId = await _repository.AddLocation(location);
 
             return view;
