@@ -1,0 +1,8 @@
+{
+	"IsEncrypted": false,
+	"Values": {
+		"AzureWebJobsStorage": "",
+		"AzureWebJobsDashboard": "",
+		"SQLAZURECONNSTR_Nova2018CodeCampContext": "Server=localhost;Database=Nova2018CodeCamp;User Id=sa; Password=yourStrong(!)Password;"
+	}
+}
