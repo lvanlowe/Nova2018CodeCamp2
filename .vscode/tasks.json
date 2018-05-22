@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Nova2018CodeCamp.Test/Nova2018CodeCamp.Test.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
